@@ -1,0 +1,1 @@
+Camera → YOLO object detection → Text → Speech output
