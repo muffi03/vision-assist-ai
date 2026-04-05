@@ -1,1 +1,104 @@
+v1:
 Camera → YOLO object detection → Text → Speech output
+v2:
+Camera → YOLO detection → Filter objects → Voice output
+v3:
+Camera
+   ↓
+YOLO object detection
+   ↓
+MiDaS depth estimation
+   ↓
+Direction + distance reasoning
+   ↓
+Voice guidance
+
+v4:
+Camera
+   ↓
+YOLO object detection
+   ↓
+MiDaS depth estimation
+   ↓
+Risk detection (v4)
+   ↓
+Navigation guidance (v5)
+   ↓
+Voice output
+
+v5/v6:
+
+Camera / Phone Camera
+        ↓
+YOLOv8 Object Detection
+        ↓
+MiDaS Depth Estimation
+        ↓
+Navigation Logic
+        ↓
+Obstacle Detection
+        ↓
+Path Clearance Check
+        ↓
+Voice Guidance
+
+v7:
+Camera / Phone Camera
+        ↓
+YOLOv8 Object Detection
+        ↓
+MiDaS Depth Estimation
+        ↓
+Scene Segmentation (road / sidewalk / obstacles)
+        ↓
+Object Tracking (moving people / vehicles)
+        ↓
+Navigation Logic + Obstacle Risk Detection
+        ↓
+Spatial Audio Guidance (left / right awareness)
+        ↓
+Path Memory + Local Navigation Map
+        ↓
+Voice + Spatial Guidance Output
+
+Camera
+ ↓
+YOLOv8 Detection + Tracking
+ ↓
+MiDaS Depth Estimation
+ ↓
+Scene Segmentation (DeepLab)
+ ↓
+Obstacle Reasoning
+ ↓
+Navigation Guidance
+ ↓
+Spatial Audio Output
+ ↓
+Path Memory Tracking
+
+v8:
+Camera
+   ↓
+YOLO detection
+   ↓
+MiDaS depth estimation
+   ↓
+Obstacle reasoning
+   ↓
+Navigation guidance
+   ↓
+Voice feedback
+
+Camera
+   ↓
+Door detection (CV edges)
+Stair detection (CV edges)
+   ↓
+YOLOv8 object detection
+   ↓
+MiDaS depth estimation
+   ↓
+Navigation reasoning
+   ↓
+Speech guidance

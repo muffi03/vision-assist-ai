@@ -1,0 +1,5 @@
+step 1.Install IP Webcam app on Android.
+step 2.Start server in the app(eg:http://192.168.1.2:8080)
+step 3.update this in the source code:
+USE_PHONE_CAMERA = True
+PHONE_STREAM_URL = "http://192.168.1.2:8080/video"
